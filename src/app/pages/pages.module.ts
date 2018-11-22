@@ -17,6 +17,7 @@ import { PAGES_ROUTES } from './pages.routes';
 // temporal
 import { IncreaserComponent } from '../components/increaser/increaser.component';
 import { GraphicDonaComponent } from '../components/graphic/graphic-dona.component';
+import { AccountSettingComponent } from './account-setting/account-setting.component';
 
 @NgModule({
   declarations: [
@@ -25,8 +26,10 @@ import { GraphicDonaComponent } from '../components/graphic/graphic-dona.compone
     DashboardComponent,
     ProgressComponent,
     Graficas1Component,
+    AccountSettingComponent,
+    // Temporal
     IncreaserComponent,
-    GraphicDonaComponent
+    GraphicDonaComponent,
 
   ],
   imports: [
