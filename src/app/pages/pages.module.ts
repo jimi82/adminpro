@@ -18,6 +18,8 @@ import { PAGES_ROUTES } from './pages.routes';
 import { IncreaserComponent } from '../components/increaser/increaser.component';
 import { GraphicDonaComponent } from '../components/graphic/graphic-dona.component';
 import { AccountSettingComponent } from './account-setting/account-setting.component';
+import { PromisesComponent } from './promises/promises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,8 @@ import { AccountSettingComponent } from './account-setting/account-setting.compo
     // Temporal
     IncreaserComponent,
     GraphicDonaComponent,
+    PromisesComponent,
+    RxjsComponent,
 
   ],
   imports: [

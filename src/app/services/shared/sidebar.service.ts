@@ -12,7 +12,9 @@ menu: any = [
     submenu: [
       {title: 'Dashboard', url: '/dashboard'},
       {title: 'ProgressBar', url: '/progress'},
-      {title: 'Graphics', url: '/graficas1'}
+      {title: 'Graphics', url: '/graficas1'},
+      {title: 'Promises', url: '/promises'},
+      {title: 'Rxjs', url: '/rxjs'}
     ]
   }
 ];
