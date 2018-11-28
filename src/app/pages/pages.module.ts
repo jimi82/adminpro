@@ -20,6 +20,9 @@ import { GraphicDonaComponent } from '../components/graphic/graphic-dona.compone
 import { AccountSettingComponent } from './account-setting/account-setting.component';
 import { PromisesComponent } from './promises/promises.component';
 import { RxjsComponent } from './rxjs/rxjs.component';
+import { PipesModule } from '../pipes/pipes.module';
+import { ProfileComponent } from './profile/profile.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -34,13 +37,16 @@ import { RxjsComponent } from './rxjs/rxjs.component';
     GraphicDonaComponent,
     PromisesComponent,
     RxjsComponent,
+    ProfileComponent,
 
   ],
   imports: [
+    CommonModule,
     SharedModule,
     PAGES_ROUTES,
     FormsModule,
-    ChartsModule
+    ChartsModule,
+    PipesModule
   ],
   exports: [
     DashboardComponent,
